@@ -1,8 +1,8 @@
+const config = require('./config/site');
+
 module.exports = {
     siteMetadata: {
-        title: `UJaaP`,
-        description: `User Journey as a Product - A Framework for Better User Journeys and Interactions`,
-        author: `@jpvalery`,
+        ...config,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
