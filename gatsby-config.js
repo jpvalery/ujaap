@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: `HiStaff`,
-        description: `Make your Staff and Workspace Happy`,
-        author: `@mostafasoufi`,
+        title: `UJaaP`,
+        description: `User Journey as a Product - A Framework for Better User Journeys and Interactions`,
+        author: `@jpvalery`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -40,8 +40,16 @@ module.exports = {
                 }
             }
         },
-        // this (optional) plugin enables Progressive Web App + Offline functionality
-        // To learn more, visit: https://gatsby.dev/offline
-        // `gatsby-plugin-offline`,
+        'gatsby-plugin-advanced-sitemap',
+        {
+          resolve: 'gatsby-plugin-robots-txt',
+          options: {
+            host: config.siteUrl,
+            sitemap:`${config.siteUrl}/sitemap.xml`,
+            policy: [{ userAgent: '*' }],
+          },
+        },
+        `gatsby-plugin-offline`,
+        'gatsby-plugin-netlify',
     ],
 }
