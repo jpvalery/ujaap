@@ -11,11 +11,11 @@ import thumbnailStaff from "../../static/images/feature-user.png"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Make your Staff and Workspace Happy"/>
+        <SEO title="A Framework for Better User Journeys and Interactions"/>
 
         <div className={"page-header home"}>
-            <h1>Make your Staff and Workspace Happy</h1>
-            <p>HiStaff gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
+            <h1>A Framework for Better User Journeys and Interactions</h1>
+            <p>Designed to make your life easier and increase the performance of your touchpoints</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
