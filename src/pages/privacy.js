@@ -11,34 +11,59 @@ const PrivacyPage = () => (
                 <div className={"title"}>
                     <h1>Privacy Policy</h1>
                 </div>
-
-                <p>At HiStaff, accessible from https://histaff.io, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by HiStaff and how we use it.</p>
-                <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email at contact@histaff.io</p>
-
-                <h3>Log Files</h3>
-                <p>HiStaff follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
-
-                <h3>Cookies and Web Beacons</h3>
-                <p>Like any other website, HiStaff uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
-
-                <h3>Privacy Policies</h3>
-                <p>You may consult this list to find the Privacy Policy for each of the advertising partners of HiStaff. Our Privacy Policy was created with the help of the Privacy Policy Generator.</p>
-                <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on HiStaff, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
-                <p>Note that HiStaff has no access to or control over these cookies that are used by third-party advertisers.</p>
-
-                <h3>Third Party Privacy Policies</h3>
-                <p>HiStaff's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. You may find a complete list of these Privacy Policies and their links here: Privacy Policy Links.</p>
-                <p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites. What Are Cookies?</p>
-
-                <h3>Children's Information</h3>
-                <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
-                <p>HiStaff does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
-
-                <h3>Online Privacy Policy Only</h3>
-                <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in HiStaff. This policy is not applicable to any information collected offline or via channels other than this website.</p>
-
-                <h3>Consent</h3>
-                <p>By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.</p>
+                This Privacy Policy describes how your personal information is collected, used, and shared when you visit bestpricingpages.com (the “Site”).
+                We aim for the greatest respect of your privacy.<br /><br />
+                <h2>PERSONAL INFORMATION WE COLLECT</h2>
+                When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device. Additionally, as you browse the Site, we collect information about the individual web pages or products that you view, what websites or search terms referred you to the Site, and information about how you interact with the Site. We refer to this automatically-collected information as “Device Information&quot; and &quot;Usage Information&quot;.<br />
+                We collect Device Information using the following technologies:<br />
+                <ul>
+                <li>“Cookies” are data files that are placed on your device or computer and often include an anonymous unique identifier. For more information about cookies, and how to disable cookies, visit <a href="http://www.allaboutcookies.org">http://www.allaboutcookies.org</a>.</li>
+                <li>“Log files” track actions occurring on the Site, and collect data including your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps.</li>
+                <li>“Web beacons,” “tags,” and “pixels” are electronic files used to record information about how you browse the Site.</li>
+                </ul>
+                When we talk about “Personal Information” in this Privacy Policy, we are talking both about Device Information and Usage Information.<br /><br />
+                <h2>HOW DO WE USE YOUR PERSONAL INFORMATION?</h2>
+                BestPricingPages uses the collected data for various purposes:<br />
+                <ul>
+                    <li>To provide and maintain the Service</li>
+                    <li>To notify you about changes to our Service</li>
+                    <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
+                    <li>To provide customer care and support</li>
+                    <li>To provide analysis or valuable information so that we can improve the Service</li>
+                    <li>To monitor the usage of the Service</li>
+                    <li>To detect, prevent and address technical issues</li>
+                </ul>
+                Please note once again that we anonymize all data. <br /><br />
+                <h2>SERVICE PROVIDERS</h2>
+                We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.<br />
+                These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.<br /><br />
+                <h2>LINKS TO OTHER SITES</h2>
+                Our Service may contain links to other sites that are not operated by us. If you click a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.<br />
+                We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.<br /><br />
+                <h2>SHARING YOUR PERSONAL INFORMATION</h2>
+                Your information, including Personal Data, may be transferred to - and maintained on - computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.<br />
+                If you are located outside Canada and choose to provide information to us, please note that we transfer the data, including Personal Data, to Canada and process it there.<br />
+                Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.<br />
+                BestPricingPages will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.<br />
+                <br /><br />
+                We may use third-party Service Providers to monitor and analyze the use of our Service.
+                Please do note that we respect DNT requests and we anonymize all data.<br />
+                Finally, we may also share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights.<br /><br />
+                <h2>DO NOT TRACK</h2>
+                Please note that we do alter our Site’s data collection and use practices when we see a Do Not Track signal from your browser.<br /><br />
+                <h2>YOUR RIGHTS</h2>
+                If you are a European resident, you have the right to access personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us through the contact information below.<br />
+                Additionally, if you are a European resident we note that we are processing your information in order to fulfill contracts we might have with you (for example if you make an order through the Site), or otherwise to pursue our legitimate business interests listed above.  Additionally, please note that your information will be transferred outside of Europe, including to Canada and the United States.<br /><br />
+                <h2>DATA RETENTION</h2>
+                Please get in touch if you'd like your data to be removed<br /><br />
+                <h2>SECURITY OF DATA</h2>
+                The security of your data is important to us but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.<br /><br />
+                <h2>MINORS</h2>
+                We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.<br /><br />
+                <h2>CHANGES</h2>
+                We may update this privacy policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal or regulatory reasons.<br /><br />
+                <h2>CONTACT US</h2>
+                For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at privacy(a)bestpricingpages.com.<br />
             </div>
         </div>
     </Layout>
