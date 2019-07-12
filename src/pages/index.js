@@ -2,11 +2,11 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/hero.png";
-import thumbnailEvent from "../../static/images/feature-event.png"
-import thumbnailBoard from "../../static/images/feature-board.png"
-import thumbnailNews from "../../static/images/feature-news.png"
-import thumbnailTeams from "../../static/images/feature-team.png"
+import featureImage from "../../static/images/illustrations/fogg-waiting-2.png";
+import thumbnailBeyond from "../../static/images/illustrations/fogg-5.png"
+import thumbnailMessage from "../../static/images/illustrations/fogg-no-messages-3.png"
+import thumbnailProduct from "../../static/images/illustrations/fogg-page-under-construction.png"
+import thumbnailBenefits from "../../static/images/illustrations/fogg-downloading.png"
 import thumbnailStaff from "../../static/images/feature-user.png"
 
 const IndexPage = () => (
@@ -16,7 +16,7 @@ const IndexPage = () => (
         <div className={"page-header home"}>
             <h1>A Framework for Better User Journeys and Interactions</h1>
             <p>Designed to make your life easier and increase the performance of your touchpoints</p>
-            <img alt={"Dashboard"} src={featureImage}/>
+            <img alt={"User Journey as a Product"} src={featureImage}/>
         </div>
 
         <div className={"container"}>
@@ -25,14 +25,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Event"} src={thumbnailEvent}/>
+                                <img alt={"See beyond"} src={thumbnailBeyond}/>
                             </div>
                         </div>
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Create and Join Events</h2>
-                                <p>Save your time and energy by letting HiStaff to manage your events (handle the colleague’s birthday, gathering, etc.)</p>
+                                <h2>See beyond a list of messages</h2>
+                                <p>Top-down campaigns with a list of messages are a thing from the past.<br />Visualize your user journeys for what they are: a 3D web.</p>
                             </div>
                         </div>
                     </div>
@@ -42,14 +42,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Public Board</h2>
-                                <p>Let the staff write down on the board freely,<br/>Joking with each other and writing cool content can make the workplace more diverse and attractive for employees. </p>
+                                <h2>Right messages at the right time</h2>
+                                <p>No longer guess what is the appropriate time or delay between touchpoints,<br />get the right message in the right hands at the right time.</p>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Board"} src={thumbnailBoard}/>
+                                <img alt={"Right message"} src={thumbnailMessage}/>
                             </div>
                         </div>
                     </div>
@@ -59,14 +59,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"News"} src={thumbnailNews}/>
+                                <img alt={"Product vision"} src={thumbnailProduct}/>
                             </div>
                         </div>
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Internal News</h2>
-                                <p>Get rid of sending news by e-mail and its problems; post the news in an internal and attractive format via HiStaff instead.</p>
+                                <h2>Product-based vision</h2>
+                                <p>Build features or improvements, and ship them as a product.<br />Not just tasks and new messages and whatnot.</p>
                             </div>
                         </div>
                     </div>
@@ -76,47 +76,31 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Teams</h2>
-                                <p>HiStaff let you add staff in specific teams and manage them easily.</p>
+                                <h2>Reap the benefits</h2>
+                                <p>Better attribution, better measures, better results.<br />Easier workflow, faster deployment, happier users.</p>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Team"} src={thumbnailTeams}/>
+                                <img alt={"Benefits"} src={thumbnailBenefits}/>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className={"feature__item"}>
-                    <div className={"row"}>
-                        <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"Users"} src={thumbnailStaff}/>
-                            </div>
-                        </div>
-
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Staff management</h2>
-                                <p>Discard traditional ways to archive staff documents and information, and try new ways to store and archive them in HiStaff easily.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
         <div className={"call-to-action"}>
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
-                    <h2>Sign up for free</h2>
-                    <p>Sign up and start increasing the productivity of your business with HiStaff.</p>
+                    <h2>Are you ready to take the next step?</h2>
+                    <p>Start implementing with UJaaP and get to the next level.</p>
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://app.histaff.io" target={"_blank"}>Get Started</a>
+                    <Link to="/how-to-implement-ujaap" title={"How to implement?"}>How to implement?</Link>
                 </div>
             </div>
         </div>
