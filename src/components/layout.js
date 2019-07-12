@@ -54,21 +54,21 @@ const Layout = ({children}) => (
                                     <h4>UJaaP</h4>
                                     <ul>
                                         <li><Link to="/about" title={"About Us"}>About</Link></li>
-                                        <li><a title={"Under Construction"}>Case Studies</a></li>
-                                        <li><a className={"links__special"} href={"https://feedback.histaff.io/"} target={"_blank"} title={"We look forward to receiving your great feedback"}>Feedback</a></li>
+                                        <li><Link to="/what-is-ujaap" title={"What is UJaaP?"}>What is UJaaP?</Link></li>
+                                        <li><Link to="/contact" title={"Contact Us"}>Contact</Link></li>
                                     </ul>
                                 </ul>
                             </div>
                         </div>
 
-                        <div className={"col-2"}>
+                        <div className={"col-3"}>
                             <div className={"widget__item"}>
                                 <div className={"links"}>
                                     <h4>The Framework</h4>
                                     <ul>
-                                        <li><Link to="/contact" title={"Contact Us"}>Core Principles</Link></li>
-                                        <li><Link to="/privacy" title={"Privacy Policy"}>Micro-campaigns</Link></li>
-                                        <li><Link to="/terms" title={"Terms Of Use"}>Implementation</Link></li>
+                                        <li><Link to="/core-principles" title={"Core Principles"}>Core Principles</Link></li>
+                                        <li><Link to="/micro-campaigns" title={"Micro-campaigns"}>Micro-campaigns</Link></li>
+                                        <li><Link to="/how-to-implement-ujaap" title={"How to implement?"}>How to implement?</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -77,21 +77,21 @@ const Layout = ({children}) => (
                         <div className={"col-2"}>
                             <div className={"widget__item"}>
                                 <div className={"links"}>
-                                    <h4>Support</h4>
+                                    <h4>Legal</h4>
                                     <ul>
-                                        <li><Link to="/contact" title={"Contact Us"}>Contact</Link></li>
                                         <li><Link to="/privacy" title={"Privacy Policy"}>Privacy</Link></li>
                                         <li><Link to="/terms" title={"Terms Of Use"}>Terms Of Use</Link></li>
+                                        <li><Link to="/credits" title={"Credits"}>Credits</Link></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <div className={"col-2"}>
+                        <div className={"col-1"}>
                             <div className={"widget__item"}>
                                 <div className={"social"}>
                                     <a href="https://twitter.com/jpvalery" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
-                                    <a href="https://www.linkedin.com/in/jpvalery" target={"_blank"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
+                                    <a href="https://linkedin.com/in/jpvalery" target={"_blank"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
                                     <a href="https://github.com/jpvalery" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub}/></a>
                                 </div>
                             </div>
