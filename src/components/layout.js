@@ -11,7 +11,6 @@ import {StaticQuery, graphql, Link} from "gatsby"
 
 import Header from "./header"
 import "../../static/styles/main.scss"
-import logo from "../../static/images/logo.svg"
 import iconTwitter from "../../static/images/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icon-linkedin.svg"
 import iconGitHub from "../../static/images/icon-github.svg"
@@ -32,22 +31,7 @@ const Layout = ({children}) => (
             <footer>
                 <div className={"container"}>
                     <div className={"row"}>
-                        <div className={"col-4"}>
-                            <div className={"widget__item"}>
-                                <div className={"logo"}>
-                                    <Link to="/" title={"HiStaff"}>
-                                        <img alt={"Logo"} src={logo}/>
-                                    </Link>
-                                </div>
-
-                                <div className={"about"}>
-                                    <p>A framework that was created with the goal of solving the problems of communications and interactions campaigns for online products.</p>
-                                    <p>Authored by <a href="https://jpvalery.me" alt="Jp Valery" rel="noopener noreferrer">Jp Valery</a></p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className={"col-2"}>
+                        <div className={"col-3"}>
                             <div className={"widget__item"}>
                                 <ul className={"links"}>
                                     <h4>UJaaP</h4>
@@ -60,7 +44,7 @@ const Layout = ({children}) => (
                             </div>
                         </div>
 
-                        <div className={"col-3"}>
+                        <div className={"col-4"}>
                             <div className={"widget__item"}>
                                 <div className={"links"}>
                                     <h4>The Framework</h4>
@@ -73,14 +57,14 @@ const Layout = ({children}) => (
                             </div>
                         </div>
 
-                        <div className={"col-2"}>
+                        <div className={"col-4"}>
                             <div className={"widget__item"}>
                                 <div className={"links"}>
                                     <h4>Legal</h4>
                                     <ul>
                                         <li><Link to="/privacy" title={"Privacy Policy"}>Privacy</Link></li>
                                         <li><Link to="/terms" title={"Terms Of Use"}>Terms Of Use</Link></li>
-                                        <li><Link to="/credits" title={"Credits"}>Credits</Link></li>
+                                        <li><Link to="/credits-licenses" title={"Credits & Licenses"}>Credits & Licenses</Link></li>
                                     </ul>
                                 </div>
                             </div>

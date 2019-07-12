@@ -14,8 +14,8 @@ const IndexPage = () => (
         <SEO title="A Framework for Better User Journeys and Interactions"/>
 
         <div className={"page-header home"}>
-            <h1>A Framework for Better User Journeys and Interactions</h1>
-            <p>Designed to make your life easier and increase the performance of your touchpoints</p>
+            <h1>User Journey as a Product</h1>
+            <p>Framework designed to make your life easier, your users happier,<br />and the performance of your touchpoints better</p>
             <img alt={"User Journey as a Product"} src={featureImage}/>
         </div>
 
