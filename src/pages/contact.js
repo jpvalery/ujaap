@@ -14,7 +14,7 @@ const ContactPage = () => (
 
                 <div className={"row"}>
                     <div className={"col-7"}>
-                        <p>We're friendly and happy to help you figure out our framework.<br />If you need our help, have questions about how to use the UJaaP framework, or would like to hire us to implement it at your company; please do not hesitate to contact us.</p>
+                        <p>We're friendly and happy to help you figure out our framework.<br /><br />If you need our help, have questions about how to use the UJaaP framework, or would like to hire us to implement it at your company; please do not hesitate to contact us.</p>
                     </div>
 
                     <div className={"col-5"}>
