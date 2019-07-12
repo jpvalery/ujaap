@@ -29,6 +29,13 @@ body {
     border-radius: 0 0 17px 17px;
 
     .logo {
+      a {
+        color: #FFFFFF;
+        font-size: 1.8rem;
+        line-height: 47px;
+        font-family: Inter;
+        font-weight: 700;
+      }
       img {
         width: 151px;
         height: 44px;
@@ -271,16 +278,23 @@ body {
     }
   }
 
+  .divider {
+    margin-top: 4rem;
+    margin-bottom: -1rem;
+  }
+
   footer {
-    padding: 120px 0 45px;
+    padding: 5rem 0 3rem;
+    background-color: #ECEFF4;
+
 
     @media screen and (max-width: $break-small) {
-      padding: 50px 0 45px;
+      padding: 4rem 0 2rem;
     }
 
     .widget__item {
       @media screen and (max-width: $break-small) {
-        padding: 15px 0 0;
+        padding: 2rem 0 0;
       }
 
       .about {

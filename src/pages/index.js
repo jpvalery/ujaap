@@ -100,7 +100,7 @@ const IndexPage = () => (
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://ujaap.com/how-to-implement-ujaap" title={"How to implement?"}>How to implement?</a>
+                    <a href="https://ujaap.com/what-is-ujaap" title={"What is UJaaP?"}>Start learning</a>
                 </div>
             </div>
         </div>
