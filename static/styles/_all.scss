@@ -23,9 +23,10 @@ body {
   }
 
   header {
-    background-color: #FDFAFF;
+    background-color: #F1F1F1;
     display: block;
     padding: 39px 0;
+    border-radius: 0 0 17px 17px;
 
     .logo {
       img {
@@ -58,9 +59,8 @@ body {
 
   .page-header {
     text-align: center;
-    padding: 100px 0 100px 0;
-    background-color: #fdfaff;
-    border-radius: 0px 0px 40px 40px;
+    padding: 6rem;
+    background-color: #FFFFFF;
 
     @media screen and (max-width: $break-small) {
       padding-top: 1px;
@@ -95,8 +95,8 @@ body {
     }
 
     img {
-      margin-top: 61px;
-      max-width: 100%;
+      margin-top: 2rem;
+      max-width: 45%;
     }
 
     &.home {
@@ -332,6 +332,8 @@ body {
 
       .social {
         text-align: right;
+        line-height: 2rem;
+        margin-top: 0.6rem;
 
         @media screen and (max-width: $break-small) {
           text-align: center;

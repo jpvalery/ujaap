@@ -2,12 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
 import featureImage from "../../static/images/illustrations/fogg-waiting-2.png";
 import thumbnailBeyond from "../../static/images/illustrations/fogg-5.png"
 import thumbnailMessage from "../../static/images/illustrations/fogg-no-messages-3.png"
 import thumbnailProduct from "../../static/images/illustrations/fogg-page-under-construction.png"
 import thumbnailBenefits from "../../static/images/illustrations/fogg-downloading.png"
-import thumbnailStaff from "../../static/images/feature-user.png"
 
 const IndexPage = () => (
     <Layout>
@@ -100,7 +100,7 @@ const IndexPage = () => (
                 </div>
 
                 <div className={"button"}>
-                    <Link to="/how-to-implement-ujaap" title={"How to implement?"}>How to implement?</Link>
+                    <a href="https://ujaap.com/how-to-implement-ujaap" title={"How to implement?"}>How to implement?</a>
                 </div>
             </div>
         </div>
