@@ -10,9 +10,11 @@ const Header = ({siteTitle}) => (
                 <div className={"logo"}>
                     <Link to="/" title={"UJaaP"}>⎈UJaaP</Link>
                 </div>
-
-                <div className={"get-started"}>
-                    <Link to="/what-is-ujaap" title={"UJaaP"}>Get Started</Link>
+                <div className={"top-menu-items"}>
+                  <span className={"mitem"}><Link to="/what-is-ujaap">What is UJaaP?</Link></span>
+                  <span className={"mitem"}><Link to="/core-principles" title={"Core Principles"}>The Core Principles</Link></span>
+                  <span className={"mitem"}><Link to="/micro-campaigns" title={"Micro-campaigns"}>Micro-Campaigns</Link></span>
+                  <span className={"mitem"}><Link to="/how-to-implement-ujaap" title={"How to implement?"}>How to implement?</Link></span>
                 </div>
             </div>
         </div>

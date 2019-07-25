@@ -15,7 +15,7 @@ body {
   }
 
   a {
-    color: #5E81AC;
+    color: #245269;
 
     &:hover, &:active {
       color: #5E81AC;
@@ -24,7 +24,7 @@ body {
   }
 
   header {
-    background-color: #5E81AC;
+    background-color: #002D42;
     display: block;
     padding: 20px 0;
 
@@ -45,6 +45,28 @@ body {
     .top-menu {
       display: flex;
       justify-content: space-between;
+
+      .top-menu-items {
+        justify-content: flex-end;
+        display: inline-block;
+        width: 75%;
+      }
+
+      .mitem {
+        font-family: inter;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 46px;
+        margin-left: 5%;;
+
+        a {
+          color: #FFFFFF;
+
+          &:hover, &:active {
+            color: #ECEFF4;
+          }
+        }
+      }
 
       .get-started {
         a {
@@ -95,7 +117,7 @@ body {
       .chapter-section {
         font-style: italic;
         font-size: 16px;
-        line-height: 18px;
+        line-height: 20px;
         margin-left: 8px;
       }
 
