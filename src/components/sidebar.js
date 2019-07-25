@@ -1,6 +1,5 @@
 import React from "react"
-import PropTypes from "prop-types"
-import {StaticQuery, graphql, Link} from "gatsby"
+import {Link} from "gatsby"
 
 const Sidebar = () => (
 <div className={"col-3 sidebar"}>
