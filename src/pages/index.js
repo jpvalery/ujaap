@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import featureImage from "../../static/images/illustrations/fogg-waiting-2.png";
+import featureImage from "../../static/images/illustrations/header-main.png";
 import thumbnailBeyond from "../../static/images/illustrations/fogg-5.png"
 import thumbnailMessage from "../../static/images/illustrations/fogg-no-messages-3.png"
 import thumbnailProduct from "../../static/images/illustrations/fogg-page-under-construction.png"
@@ -15,10 +15,10 @@ const IndexPage = () => (
 
         <div className={"page-header home"}>
             <h1>User Journey as a Product</h1>
-            <p>Framework designed to make your life easier, your users happier,<br />and the performance of your touchpoints better</p>
+            <p>Framework designed to make your life easier, your users happier,<br />and the performance of your touchpoints better</p><br />
             <img alt={"User Journey as a Product"} src={featureImage}/>
         </div>
-
+          <svg className={"header-divider"} viewBox="0 0 1440 90" xmlns="http://www.w3.org/2000/svg"><path d="M1440 21.21V120H0V21.21C120 35.07 240 42 360 42s240-6.93 360-20.79c88.328-8.794 154.574-14.333 198.738-16.618A3120.562 3120.562 0 0 1 1080 .42c120 0 240 6.93 360 20.79z" fill="#FFFFFF"></path></svg>
         <div className={"container"}>
             <div className={"features"}>
                 <div className={"feature__item"}>
