@@ -37,6 +37,10 @@ body {
       }
       img {
         height: 36px;
+
+        @media screen and (max-width: 1280px) {
+          display: none;
+        }
       }
     }
 
@@ -48,13 +52,17 @@ body {
         display: flex;
         justify-content: flex-end;
         width: 85%;
+
+        @media screen and (max-width: $break-small) {
+          display: none;
+        }
       }
 
       .mitem {
-        font-family: inter;
+        font-family: Inter;
         font-weight: 500;
-        font-size: 16px;
-        line-height: 48px;
+        font-size: 0.9rem;
+        margin-top: 1rem;
         margin-left: 5%;;
 
         a {
@@ -87,6 +95,10 @@ body {
   .sidebar {
     padding: 2rem 0;
     font-family: PT Serif;
+
+    @media screen and (max-width: $break-small) {
+      display: none;
+    }
 
       .part {
         border-top: 0.1rem solid;
