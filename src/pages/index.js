@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import {Link} from "gatsby"
 
 import featureImage from "../../static/images/illustrations/header-main.png";
 import thumbnailBeyond from "../../static/images/illustrations/fogg-5.png"
@@ -100,7 +101,7 @@ const IndexPage = () => (
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://ujaap.com/what-is-ujaap" title={"What is UJaaP?"}>Start learning</a>
+                    <Link to="/what-is-ujaap" title={"What is UJaaP?"}>Start learning</Link>
                 </div>
             </div>
         </div>
