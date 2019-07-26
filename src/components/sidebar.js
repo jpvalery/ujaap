@@ -2,14 +2,14 @@ import React from "react"
 import {Link} from "gatsby"
 
 const Sidebar = () => (
-<div className={"col-3 sidebar"}>
+<div className={"col-3 sidebar sticky"}>
 
 <div className={"part"}>
   <p className={"chapter-number"}>Introduction</p>
   <Link to="/what-is-ujaap"><h3 className={"chapter-title"}>What is UJaaP?</h3></Link>
       <ul className={"chapter"}>
-          <li className={"chapter-section"}><Link to="/">Section 1</Link></li>
-          <li className={"chapter-section"}><Link to="/">Section 2</Link></li>
+          <li className={"chapter-section"}><Link to="/what-is-ujaap#how-it-all-started">How it all started</Link></li>
+          <li className={"chapter-section"}><Link to="/what-is-ujaap#the-ujaap-manifesto">The UJaaP Manifesto</Link></li>
           <li className={"chapter-section"}><Link to="/">Section 3</Link></li>
       </ul>
 </div>
