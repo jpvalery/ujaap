@@ -12,7 +12,7 @@ const WhatisPage = () => (
           <div className={"row"}>
             <div className={"content"}>
               <Sidebar />
-              <div className={"col-9"}>
+              <div className={"post"}>
                     <div className={"title"}>
                         <h1>What is UJaaP?</h1>
                     </div>

@@ -100,7 +100,9 @@ body {
 
   .sidebar {
     padding: 2rem 0;
+    width: 25%;
     font-family: PT Serif;
+    float: left;
 
     @media screen and (max-width: $break-small) {
       display: none;
@@ -349,6 +351,10 @@ body {
         margin-left: 0.5rem;
       }
 
+    }
+
+    .post {
+      margin-left: 30%;
     }
 
     .post-prev {

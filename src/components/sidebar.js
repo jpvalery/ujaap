@@ -2,7 +2,7 @@ import React from "react"
 import {Link} from "gatsby"
 
 const Sidebar = () => (
-<div className={"col-3 sidebar sticky"}>
+<div className={"sidebar sticky"}>
 
 <div className={"part"}>
   <p className={"chapter-number"}>Introduction</p>
