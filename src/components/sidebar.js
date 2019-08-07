@@ -9,8 +9,8 @@ const Sidebar = () => (
   <Link to="/what-is-ujaap"><h3 className={"chapter-title"}>What is UJaaP?</h3></Link>
       <ul className={"chapter"}>
           <li className={"chapter-section"}><Link to="/what-is-ujaap#how-it-all-started">How it all started</Link></li>
+          <li className={"chapter-section"}><Link to="/what-is-ujaap#the-problems-faced-by-almost-all-customer-teams">Problems, Consequences, and Opportunities</Link></li>
           <li className={"chapter-section"}><Link to="/what-is-ujaap#the-ujaap-manifesto">The UJaaP Manifesto</Link></li>
-          <li className={"chapter-section"}><Link to="/">Section 3</Link></li>
       </ul>
 </div>
 
