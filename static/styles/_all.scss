@@ -9,7 +9,7 @@ body {
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: PT Serif;
+    font-family: 'Merriweather', serif;
     line-height: 43px;
     color: #1E1C21;
   }
@@ -99,9 +99,9 @@ body {
   }
 
   .sidebar {
-    padding: 2rem 0;
+    padding: 1rem 0;
     width: 25%;
-    font-family: PT Serif;
+    font-family: 'Merriweather', serif;
     float: left;
 
     @media screen and (max-width: $break-small) {
@@ -126,21 +126,21 @@ body {
       }
 
       .chapter-title {
-        font-weight: 600;
+        font-weight: 700;
         font-size: 20px;
         margin: 0;
-        margin-top: -8px
+        margin-top: -4px
       }
 
       .chapter-section {
         font-style: italic;
         font-size: 16px;
         line-height: 20px;
-        margin-left: 8px;
+        margin: 0 0 4px 8px;
       }
 
       .annex {
-        font-weight: 600;
+        font-weight: 700;
         font-size: 18px;
         line-height: 18px;
         margin: 4px 0;
@@ -337,7 +337,7 @@ body {
     }
 
     .title {
-      margin: 0 0 44px;
+      margin: 0 0 36px;
     }
 
     dl {

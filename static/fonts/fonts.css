@@ -176,3 +176,14 @@ Usage:
   font-named-instance: 'Italic';
   src: url("Inter-italic.var.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: 'Merriweather';
+  font-weight: 700;
+  src: url("merriweather-bold.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-weight: 900;
+  src: url("merriweather-black.woff2") format('woff2');
+}
