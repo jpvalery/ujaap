@@ -50,11 +50,14 @@ const WhatisPage = () => (
                     <li>You have a better understanding of your performance and the impact it has on your users and on product use.</li>
                     </ul>
 
-                    <div className={"post-next"}>
-                    <strong>Next:</strong><br />
-                    <Link to="/core-principles">Chapter I : The Core Principles</Link>
+                    <div className={"post-nav"}>
+                        <div className={"post-prev"}>
+                        </div>
+                        <div className={"post-next"}>
+                        <strong>Next:</strong><br />
+                        <Link to="/core-principles">Chapter I : The Core Principles</Link>
+                        </div>
                     </div>
-
               </div>
             </div>
           </div>
