@@ -11,6 +11,7 @@ const Sidebar = () => (
           <li className={"chapter-section"}><Link to="/what-is-ujaap#how-it-all-started">How it all started</Link></li>
           <li className={"chapter-section"}><Link to="/what-is-ujaap#the-problems-faced-by-almost-all-customer-teams">Problems, Consequences, and Opportunities</Link></li>
           <li className={"chapter-section"}><Link to="/what-is-ujaap#the-ujaap-manifesto">The UJaaP Manifesto</Link></li>
+          <li className={"chapter-section"}><Link to="/what-is-ujaap#the-benefits-of-the-ujaap-framework">The Benefits</Link></li>
       </ul>
 </div>
 
@@ -18,9 +19,10 @@ const Sidebar = () => (
   <p className={"chapter-number"}>Chapter I</p>
   <Link to="/core-principles" title={"Core Principles"}><h3 className={"chapter-title"}>The Core Principles</h3></Link>
       <ul className={"chapter"}>
-          <li className={"chapter-section"}><Link to="/">Section 1</Link></li>
-          <li className={"chapter-section"}><Link to="/">Section 2</Link></li>
-          <li className={"chapter-section"}><Link to="/">Section 3</Link></li>
+          <li className={"chapter-section"}><Link to="/core-principles#the-right-message">The Right Message, Place, and Time</Link></li>
+          <li className={"chapter-section"}><Link to="/core-principles#data-driven">Data-driven</Link></li>
+          <li className={"chapter-section"}><Link to="/core-principles#output-mission">Output ≠ Mission</Link></li>
+          <li className={"chapter-section"}><Link to="/core-principles#living-products">Living Products</Link></li>
       </ul>
 </div>
 
