@@ -12,7 +12,7 @@ const ImplementPage = () => (
         <div className={"row"}>
           <div className={"content"}>
             <Sidebar />
-            <div className={"col-9"}>
+            <div className={"post"}>
                   <div className={"title"}>
                       <h1>How to implement User Journey as a Product?</h1>
                   </div>

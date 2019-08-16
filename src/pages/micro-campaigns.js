@@ -12,7 +12,7 @@ const MicrocampaignsPage = () => (
         <div className={"row"}>
           <div className={"content"}>
             <Sidebar />
-            <div className={"col-9"}>
+            <div className={"post"}>
                   <div className={"title"}>
                       <h1>Micro Campaigns</h1>
                   </div>

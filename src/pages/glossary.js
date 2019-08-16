@@ -11,7 +11,7 @@ const Glossary = () => (
         <div className={"row"}>
           <div className={"content"}>
             <Sidebar />
-            <div className={"col-9"}>
+            <div className={"post"}>
                   <div className={"title"}>
                       <h1>Glossary</h1>
                   </div>
