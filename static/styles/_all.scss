@@ -353,6 +353,13 @@ body {
 
     }
 
+    .list-content
+     {
+      list-style: disclosure-closed !important;
+      list-style-position: inside !important;
+      margin-left: 1rem;
+    }
+
     .post {
       margin-left: 30%;
     }
