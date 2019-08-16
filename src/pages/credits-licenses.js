@@ -12,7 +12,7 @@ const CreditsPage = () => (
                     <h1>Credits & Licenses</h1>
                 </div>
                 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="CreativeCommonsLicense" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a><br />
-                User Journey as a Product by Jp Valery is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+                User Journey as a Product by Jp Valery is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />
                 <br />
                 The code of the website is available under the MIT License on <a href="https://github.com/jpvalery/ujaap" rel="noopener noreferrer" targer="_blank">Github</a>.<br />
                 <br />
