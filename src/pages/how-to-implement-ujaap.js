@@ -16,7 +16,10 @@ const ImplementPage = () => (
                   <div className={"title"}>
                       <h1>How to implement User Journey as a Product?</h1>
                   </div>
-                Lorem ipsum
+                  <h2 id="rebuild-your-journey-mapping">Rebuild your journey mapping</h2>
+                  <h2 id="get-the-right-tools">Get the right tools</h2>
+                  <h2 id="iterate-and-improve">Iterate and improve</h2>
+
 
                 <div className={"post-nav"}>
 

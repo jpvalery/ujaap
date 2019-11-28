@@ -40,9 +40,9 @@ const Sidebar = () => (
   <p className={"chapter-number"}>Chapter III</p>
   <Link to="/how-to-implement-ujaap" title={"How to implement?"}><h3 className={"chapter-title"}>How to implement?</h3></Link>
       <ul className={"chapter"}>
-          <li className={"chapter-section"}><Link to="/">Section 1</Link></li>
-          <li className={"chapter-section"}><Link to="/">Section 2</Link></li>
-          <li className={"chapter-section"}><Link to="/">Section 3</Link></li>
+          <li className={"chapter-section"}><Link to="how-to-implement-ujaap#rebuild-your-journey-mapping">Rebuild your mapping</Link></li>
+          <li className={"chapter-section"}><Link to="how-to-implement-ujaap#get-the-right-tools">Get the right tools</Link></li>
+          <li className={"chapter-section"}><Link to="how-to-implement-ujaap#iterate-and-improve">Iterate & Improve</Link></li>
       </ul>
 </div>
 
