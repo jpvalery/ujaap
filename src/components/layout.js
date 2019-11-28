@@ -89,7 +89,7 @@ const Layout = ({children}) => (
                     </div>
 
                     <div className={"copyright"}>
-                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://ujaap.com" title={"UJaaP"}>UJaaP.com</a>. All rights reserved.</p>
+                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://ujaap.com" title={"UJaaP"}>UJaaP.com</a>. CC BY-SA 4.0</p>
                     </div>
                 </div>
             </footer>
