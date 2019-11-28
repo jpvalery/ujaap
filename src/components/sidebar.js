@@ -31,7 +31,6 @@ const Sidebar = () => (
   <Link to="/micro-campaigns" title={"Micro-campaigns"}><h3 className={"chapter-title"}>Micro-Campaigns</h3></Link>
       <ul className={"chapter"}>
           <li className={"chapter-section"}><Link to="/micro-campaigns#why-micro">Why "Micro"?</Link></li>
-          <li className={"chapter-section"}><Link to="/micro-campaigns#dos-donts">Do's and Don't's</Link></li>
           <li className={"chapter-section"}><Link to="/micro-campaigns#its-not-a-micro-campaign-if">Symptoms of failure</Link></li>
           <li className={"chapter-section"}><Link to="/micro-campaigns#its-a-micro-campaign-if">Signs of success</Link></li>
       </ul>
