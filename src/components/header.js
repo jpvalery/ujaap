@@ -8,7 +8,7 @@ const Header = ({siteTitle}) => (
         <div className={"container"}>
             <div className={"top-menu"}>
                 <div className={"logo"}>
-                    <Link to="/" title={"UJaaP"}><img alt={"Logo"} src={logo}/> UJaaP</Link>
+                    <Link to="/" title={"UJaaP"}><img alt={"Logo"} src={logo}/></Link>
                 </div>
                 <div className={"top-menu-items"}>
                   <span className={"mitem"}><Link to="/what-is-ujaap">What is UJaaP?</Link></span>
