@@ -276,7 +276,7 @@ body {
 
       a {
         font-size: 18px;
-        background-color: #fab131;
+        background-color: $highlight-dark;
         padding: 0.3rem 3rem;
         margin-left: auto;
         border-radius: 4px;
@@ -286,14 +286,14 @@ body {
         justify-content: center;
         font-weight: bold;
         flex-direction: column;
-        color: #fff;
+        color: $body-white;
 
         @media screen and (max-width: $break-small) {
           margin: 0 auto;
         }
 
         &:hover {
-          background-color: #ff8c44;
+          background-color: $highlight-dark-hover;
           color: $body-white;
         }
       }
