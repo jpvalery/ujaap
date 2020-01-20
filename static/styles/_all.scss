@@ -23,6 +23,24 @@ body {
 
   }
 
+  .badge-beta {
+    background-color: #fbca04;
+    border-radius: 4px;
+    color: $color-body;
+    display: inline-block;
+    font-size: .7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1rem;
+    padding: 0 .382em;
+    position: relative;
+    top: -1rem;
+    left: .7rem;
+    vertical-align: middle;
+  }
+
   header {
     background-color: $footer-gradient-fg;
     display: block;
