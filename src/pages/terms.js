@@ -11,7 +11,7 @@ const TermsPage = () => (
                 <div className={"title"}>
                     <h1>Terms Of Use</h1>
                 </div>
-                <p><strong>Last Updated July 12th 2019</strong></p>
+                <p><strong>Last Updated January 20th 2020</strong></p>
                 Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the https://bestpricingpages.com website (the "Service") operated by BestPricingPages ("us", "we", or "our").<br />
                 Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.<br />
                 By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.<br />

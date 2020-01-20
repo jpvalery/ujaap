@@ -16,17 +16,17 @@ const Glossary = () => (
                       <h1>Glossary</h1>
                   </div>
                 <dl>
-                  <dt>Term</dt>
+                  <dt>Transactional Email</dt>
                     <dd>Definition</dd>
-                  <dt>Term</dt>
+                  <dt>Conversational Email</dt>
                     <dd>Definition</dd>
-                  <dt>Term</dt>
+                  <dt>Inapp</dt>
                     <dd>Definition</dd>
-                  <dt>Term</dt>
+                  <dt>Trigger</dt>
                     <dd>Definition</dd>
-                  <dt>Term</dt>
+                  <dt>Touchpoints</dt>
                     <dd>Definition</dd>
-                  <dt>Term</dt>
+                  <dt>User Journey(s)</dt>
                     <dd>Definition</dd>
                 </dl>
             </div>
