@@ -17,17 +17,19 @@ const Glossary = () => (
                   </div>
                 <dl>
                   <dt>Transactional Email</dt>
-                    <dd>Definition</dd>
+                    <dd>One-to-one emails that contain information that completes a transaction or process the recipient has started with you.</dd>
                   <dt>Conversational Email</dt>
-                    <dd>Definition</dd>
+                    <dd>One-to-one emails that contain information designed to nudge the recipient into taking an action with a concrete benefit for them.</dd>
+                  <dt>Promotional Email</dt>
+                    <dd>One-to-many emails sent about a promotion or an offer</dd>
                   <dt>Inapp</dt>
-                    <dd>Definition</dd>
+                    <dd>Also known as inwebs, popups, layovers, modals, hellobars, inbrowsers... Message displayed on the website of your product during its use by a user.</dd>
                   <dt>Trigger</dt>
-                    <dd>Definition</dd>
+                    <dd>Event or set of condition that justifies the sending of a message.</dd>
                   <dt>Touchpoints</dt>
-                    <dd>Definition</dd>
+                    <dd>Message sent on a channel to interact with the user.</dd>
                   <dt>User Journey(s)</dt>
-                    <dd>Definition</dd>
+                    <dd>Ensemble of paths a user can take with your product. Range from micro (for instance using a feature) to macro (for instance the lifetime use of your product)</dd>
                 </dl>
             </div>
           </div>
