@@ -196,6 +196,10 @@ body {
 
     img {
       max-width: 35rem;
+      
+      @media screen and (max-width: $break-small) {
+          max-width: 12rem;
+        }
     }
 
     &.home {
