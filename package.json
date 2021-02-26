@@ -1,51 +1,27 @@
 {
-  "name": "UJaaP",
-  "private": false,
-  "description": "Gatsby powering UJaaP.com",
-  "version": "0.2.0",
-  "author": "Jp Valery <contact@jpvalery.me>",
+  "name": "UJaaP.com",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
-    "gatsby": "^2.7.5",
-    "gatsby-cli": "^2.7.13",
-    "gatsby-image": "^2.2.6",
-    "gatsby-plugin-advanced-sitemap": "^1.2.0",
-    "gatsby-plugin-manifest": "^2.2.3",
-    "gatsby-plugin-netlify": "^2.1.2",
-    "gatsby-plugin-offline": "^2.2.3",
-    "gatsby-plugin-react-helmet": "^3.1.2",
-    "gatsby-plugin-robots-txt": "^1.5.0",
-    "gatsby-plugin-sass": "^2.1.3",
-    "gatsby-plugin-sharp": "^2.1.2",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-source-filesystem": "^2.0.37",
-    "gatsby-transformer-sharp": "^2.2.3",
-    "node-sass": "^4.12.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "@headlessui/react": "^0.2.0",
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^10.2.1",
+    "comma-number": "^2.0.1",
+    "next": "10.0.5",
+    "next-seo": "^4.17.0",
+    "next-themes": "^0.0.10",
+    "postcss": "^8.2.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "swr": "^0.4.0",
+    "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "prettier": "^1.18.2",
-    "sass": "^1.22.4"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build --output-dir",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jpvalery/ujaap"
-  },
-  "bugs": {
-    "url": "https://github.com/jpvalery/ujaap/issues"
+    "prettier": "2.2.1"
   }
 }
