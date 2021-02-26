@@ -1,11 +1,17 @@
-## Ujaap.com - User Journey as a Product
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and using TailwindCSS.
 
-Small website to share this framework I built - another fun Gatsby project to work on.
+![image](https://user-images.githubusercontent.com/4112343/104246870-bebcaa00-5434-11eb-8d08-c70b2f5344a6.png)
 
-### Licenses
-Code is MIT licensed
-Content is Copyright ©
-UJaaP and User Journey as a Product are TM
+## Getting Started
 
-### Credits
-Code based on https://github.com/histaff/website-static/
+First, run the development server:
+
+```bash
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Credits
+
+Inspired by [leerob.io](https://github.com/leerob/leerob.io)
