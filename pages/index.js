@@ -3,7 +3,7 @@ import Divider from "../components/Divider";
 export default function Home() {
   return (
     <div>
-      <main className="prose max-w-4xl mx-auto">
+      <main className="max-w-4xl mx-auto prose">
         <h1>What is UJaaP?</h1>
         <h2 id="how-it-all-started">How it all started</h2>
         <p>
@@ -409,31 +409,31 @@ export default function Home() {
         <Divider />
         <h1>Glossary</h1>
         <dl>
-          <dt className="font-semibold pt-4">Transactional Email</dt>
+          <dt className="pt-4 font-semibold">Transactional Email</dt>
           <dd>
             One-to-one emails that contain information that completes a
             transaction or process the recipient has started with you.
           </dd>
-          <dt className="font-semibold pt-4">Conversational Email</dt>
+          <dt className="pt-4 font-semibold">Conversational Email</dt>
           <dd>
             One-to-one emails that contain information designed to nudge the
             recipient into taking an action with a concrete benefit for them.
           </dd>
-          <dt className="font-semibold pt-4">Promotional Email</dt>
+          <dt className="pt-4 font-semibold">Promotional Email</dt>
           <dd>One-to-many emails sent about a promotion or an offer</dd>
-          <dt className="font-semibold pt-4">Inapp</dt>
+          <dt className="pt-4 font-semibold">Inapp</dt>
           <dd>
             Also known as inwebs, popups, layovers, modals, hellobars,
             inbrowsers... Message displayed on the website of your product
             during its use by a user.
           </dd>
-          <dt className="font-semibold pt-4">Trigger</dt>
+          <dt className="pt-4 font-semibold">Trigger</dt>
           <dd>
             Event or set of condition that justifies the sending of a message.
           </dd>
-          <dt className="font-semibold pt-4">Touchpoints</dt>
+          <dt className="pt-4 font-semibold">Touchpoints</dt>
           <dd>Message sent on a channel to interact with the user.</dd>
-          <dt className="font-semibold pt-4">User Journey(s)</dt>
+          <dt className="pt-4 font-semibold">User Journey(s)</dt>
           <dd>
             Ensemble of paths a user can take with your product. Range from
             micro (for instance using a feature) to macro (for instance the

@@ -5,9 +5,9 @@ export default function Divider() {
         <div className="w-full border-t border-gray-300"></div>
       </div>
       <div className="relative flex justify-center">
-        <span className="bg-white px-2 text-gray-500">
+        <span className="px-2 text-gray-500 bg-white">
           <svg
-            className="h-5 w-5"
+            className="w-5 h-5"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
