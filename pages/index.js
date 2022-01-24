@@ -3,7 +3,7 @@ import Divider from "../components/Divider";
 export default function Home() {
   return (
     <div>
-      <main className="max-w-4xl mx-auto prose">
+      <main className="prose mx-auto max-w-4xl">
         <h1>What is UJaaP?</h1>
         <h2 id="how-it-all-started">How it all started</h2>
         <p>
