@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Head, Html, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -14,7 +14,7 @@ class MyDocument extends Document {
             async
             defer
             data-website-id="28454a7f-9499-4b00-bd73-062570c6713e"
-            src="https://analytics.jpvalery.com/umami.js"
+            src="https://analytics.jpvalery.com/script.js"
           ></script>
         </Head>
         <body>
